@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ name }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- <link rel="shortcut icon" href="/favicon.png"/> -->
+</head>
+
+<body>
+  <div class="wrapper project">
+
+  <a href="/#gallery" id="back">←</a>
+
+  <h2><i>{{ title }}</i></h2>
+  <h5>{{ year }}</h5>
+  <div class="description">
+    {{{ contents }}}
+
+ <div class="imgGallery">
+  {{#each images}}
+  <div class="imgWrapper">
+    <img src="/{{this}}" alt="">
+  </div>
+  {{/each}}
+  </div>
+
+  <iframe src="{{video}}" class="vimeo" width="960" height="540" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <div class="">
+
+  </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
