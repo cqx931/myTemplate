@@ -13,7 +13,7 @@ A website/portfolio/presentation/cv (other potential documents?) management syst
 
 ## Features
 - Website: [Metalsmith](https://www.metalsmith.io/)
-- [wkhtmltopdf](https://wkhtmltopdf.org)
+- pdf: [wkhtmltopdf](https://wkhtmltopdf.org)
 
 ## TBA
 - [ ] Support Project Selection for Portfolio Generation
