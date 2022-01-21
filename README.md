@@ -1,18 +1,15 @@
-#### At the beginning there was Markdown
+## MyTemplate
+<i>At the beginning there was Markdown.</i>
 
 A website/portfolio/presentation/cv (other potential documents?) management system, all generated from markdown files.
 
 ## Installation
-```
-    $ npm install
-    $ npm start
-```
-To use pdf generation
-- [Install wkhtmltopdf](https://wkhtmltopdf.org/downloads.html)
+- npm: `$ npm install`
+- To use pdf generation: [Install wkhtmltopdf](https://wkhtmltopdf.org/downloads.html)
 
 ## Commands
-To generate portfolio pdf from `src` folder
-`npm run generatePortfolio`
+- To build the website: `$ npm start`
+- To generate portfolio pdf from `src` folder: `npm run generatePortfolio`
 
 ## Features
 - Website: [Metalsmith](https://www.metalsmith.io/)
